@@ -1,0 +1,35 @@
+name: Coleta diaria - aluguel de acoes B3
+
+on:
+  schedule:
+    - cron: "0 13 * * 1-5"   # 10h de Brasilia, seg-sex (B3 publica D-1 por volta das 8h)
+  workflow_dispatch:          # permite rodar manualmente pelo botao "Run workflow"
+
+permissions:
+  contents: write
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Coletar dados da B3
+        run: python coletor_aluguel_b3.py
+
+      - name: Salvar no repositorio
+        if: always()
+        run: |
+          git config user.name "coletor-bot"
+          git config user.email "coletor-bot@users.noreply.github.com"
+          git add dados || true
+          git diff --cached --quiet || (git commit -m "Coleta $(date -u +%F)" && git push)
