@@ -1,0 +1,92 @@
+[
+  {
+    "codigo": "DtRef",
+    "nome_pt": "Data de referência",
+    "nome_en": "Reference Date",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "TckrSymb",
+    "nome_pt": "Instrumento financeiro",
+    "nome_en": "Ticker Symbol",
+    "tooltip_pt": "Tipo de instrumento negociado"
+  },
+  {
+    "codigo": "AssetObjectISIN",
+    "nome_pt": "Código ISIN",
+    "nome_en": "ISIN Code",
+    "tooltip_pt": "Codificação internacional de títulos financeiros"
+  },
+  {
+    "codigo": "BTBContractQuantity",
+    "nome_pt": "Quantidade",
+    "nome_en": "Quantity",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "BTBContractFinancialValue",
+    "nome_pt": "Valor em R$",
+    "nome_en": "Value in BRL",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "RemunerationRatePercent",
+    "nome_pt": "Taxa de remuneração em %",
+    "nome_en": "Remuneration Rate %",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "TradeNumber",
+    "nome_pt": "Numero do negócio",
+    "nome_en": "Trade Identifier",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "MarketType",
+    "nome_pt": "Tipo mercado",
+    "nome_en": "Market Type",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "RenewalType",
+    "nome_pt": "Tipo renovação",
+    "nome_en": "Renewal Type",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "LenderParticipantCode",
+    "nome_pt": "Código",
+    "nome_en": "Code",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "LenderParticipantName",
+    "nome_pt": "Nome",
+    "nome_en": "Name",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "BorrowerParticipantCode",
+    "nome_pt": "Código",
+    "nome_en": "Code",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "BorrowerParticipantName",
+    "nome_pt": "Nome",
+    "nome_en": "Name",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Borrower",
+    "nome_pt": "Tomador",
+    "nome_en": "Borrower",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Lender",
+    "nome_pt": "Doador",
+    "nome_en": "Lender",
+    "tooltip_pt": null
+  }
+]

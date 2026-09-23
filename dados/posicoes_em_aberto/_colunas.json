@@ -1,0 +1,62 @@
+[
+  {
+    "codigo": "RptDt",
+    "nome_pt": "Data",
+    "nome_en": "Date",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "DtRef",
+    "nome_pt": "Data",
+    "nome_en": "Date",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "TckrSymb",
+    "nome_pt": "Código IF",
+    "nome_en": "Ticker",
+    "tooltip_pt": "Código que identifica o instrumento financeiro"
+  },
+  {
+    "codigo": "ISIN",
+    "nome_pt": "Código ISIN",
+    "nome_en": "ISIN",
+    "tooltip_pt": "Codificação internacional de títulos financeiros"
+  },
+  {
+    "codigo": "Company",
+    "nome_pt": "Empresa ou fundo",
+    "nome_en": "Company or Fund",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Type",
+    "nome_pt": "Tipo de empréstimo",
+    "nome_en": "Type",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Market",
+    "nome_pt": "Mercado",
+    "nome_en": "Market",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "StockBalance",
+    "nome_pt": "Saldo em quantidade do ativo",
+    "nome_en": "Balance in quantity of asset",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "AvgPric",
+    "nome_pt": "Preço médio",
+    "nome_en": "Trade Average Price",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Balance",
+    "nome_pt": "Saldo em R$",
+    "nome_en": "Balance in BRL",
+    "tooltip_pt": null
+  }
+]

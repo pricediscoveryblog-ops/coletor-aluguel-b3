@@ -1,0 +1,92 @@
+[
+  {
+    "codigo": "TckrSymb",
+    "nome_pt": "Código IF",
+    "nome_en": "Symbol",
+    "tooltip_pt": "Código que identifica o instrumento financeiro"
+  },
+  {
+    "codigo": "Quantity",
+    "nome_pt": "Quantidade",
+    "nome_en": "Number",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Rate",
+    "nome_pt": "Taxa % remuneração",
+    "nome_en": "Remuneration Rate %",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "TradeId",
+    "nome_pt": "Número do negócio",
+    "nome_en": "Quantity",
+    "tooltip_pt": "Identificador da transação específica do empréstimo"
+  },
+  {
+    "codigo": "MarketBTB",
+    "nome_pt": "Mercado",
+    "nome_en": "Market",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "EntryDate",
+    "nome_pt": "Data de referência",
+    "nome_en": "Trade Date",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "EntryTime",
+    "nome_pt": "Hora",
+    "nome_en": "Entry Time",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "EntrySeller",
+    "nome_pt": "Código",
+    "nome_en": "Code",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "EntrySellerNm",
+    "nome_pt": "Nome doador",
+    "nome_en": "Name take",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "EntryBuyer",
+    "nome_pt": "Código",
+    "nome_en": "Code",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "EntryBuyerNm",
+    "nome_pt": "Nome tomador",
+    "nome_en": "Name Taker",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "UpdateAction",
+    "nome_pt": "Ação de atualização",
+    "nome_en": "Update Action",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "TradeSessionId",
+    "nome_pt": "Tipo sessão do pregão",
+    "nome_en": "Trade Session Type",
+    "tooltip_pt": "Informa se o negócio foi feito no horário regular do pregão ou não"
+  },
+  {
+    "codigo": "Seller",
+    "nome_pt": "Participante doador",
+    "nome_en": "Donor participant",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Buyer",
+    "nome_pt": "Participante tomador",
+    "nome_en": "Taker participant",
+    "tooltip_pt": null
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "codigo": "RptDt",
+    "nome_pt": "Data",
+    "nome_en": "Date",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "DtRef",
+    "nome_pt": "Data",
+    "nome_en": "Date",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "TckrSymb",
+    "nome_pt": "Código IF",
+    "nome_en": "Ticker",
+    "tooltip_pt": "Código que identifica o instrumento financeiro"
+  },
+  {
+    "codigo": "ISIN",
+    "nome_pt": "Código ISIN",
+    "nome_en": "ISIN",
+    "tooltip_pt": "Codificação internacional de títulos financeiros"
+  },
+  {
+    "codigo": "Company",
+    "nome_pt": "Empresa ou fundo",
+    "nome_en": "Company or Fund",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Market",
+    "nome_pt": "Mercado",
+    "nome_en": "Market",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "QtyCtrctsDay",
+    "nome_pt": "Número de contratos",
+    "nome_en": "Number of Contracts",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "ValCtrctsDay",
+    "nome_pt": "Quantidade de ativos",
+    "nome_en": "Asset Amount",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "DnrMinRate",
+    "nome_pt": "Mínima",
+    "nome_en": "Minimum",
+    "tooltip_pt": "Menor taxa de juros cobrada pelos credores"
+  },
+  {
+    "codigo": "DnrAvrgRate",
+    "nome_pt": "Média ponderada",
+    "nome_en": "Average",
+    "tooltip_pt": "Taxa média de juros cobrada pelos credores"
+  },
+  {
+    "codigo": "DnrMaxRate",
+    "nome_pt": "Máxima",
+    "nome_en": "Maximum",
+    "tooltip_pt": "Maior taxa de juros cobrada pelos credores"
+  },
+  {
+    "codigo": "TkrMinRate",
+    "nome_pt": "Mínima",
+    "nome_en": "Minimum",
+    "tooltip_pt": "Menor taxa de juros cobrada pelos devedores"
+  },
+  {
+    "codigo": "TkrAvrgRate",
+    "nome_pt": "Média ponderada",
+    "nome_en": "Average",
+    "tooltip_pt": "Taxa média de juros cobrada pelos devedores"
+  },
+  {
+    "codigo": "TkrMaxRate",
+    "nome_pt": "Máxima",
+    "nome_en": "Maximum",
+    "tooltip_pt": "Maior taxa de juros cobrada pelos devedores"
+  },
+  {
+    "codigo": "BRLValue",
+    "nome_pt": "Valor em R$",
+    "nome_en": "Value in BRL",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Dnr",
+    "nome_pt": "Taxa doador",
+    "nome_en": "Rate Donor",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Tkr",
+    "nome_pt": "Taxa tomador",
+    "nome_en": "Rate Taker",
+    "tooltip_pt": null
+  }
+]
