@@ -1,0 +1,188 @@
+[
+  {
+    "codigo": "RptDt",
+    "nome_pt": "Data de referência",
+    "nome_en": "Reference date",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "TckrSymb",
+    "nome_pt": "Instrumento financeiro",
+    "nome_en": "Ticker symbol",
+    "tooltip_pt": "Tipo de instrumento negociado"
+  },
+  {
+    "codigo": "Asst",
+    "nome_pt": "Ativo",
+    "nome_en": "Asset",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "AsstDesc",
+    "nome_pt": "Descrição do ativo",
+    "nome_en": "Asset description",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "SgmtNm",
+    "nome_pt": "Segmento",
+    "nome_en": "Segment",
+    "tooltip_pt": "Seção de mercado, como renda variável, fixa etc."
+  },
+  {
+    "codigo": "MktNm",
+    "nome_pt": "Mercado",
+    "nome_en": "Market",
+    "tooltip_pt": "Onde é negociado, como bolsa, mercado de balcão etc."
+  },
+  {
+    "codigo": "SctyCtgyNm",
+    "nome_pt": "Categoria",
+    "nome_en": "Category",
+    "tooltip_pt": "Ações ordinárias, Ações preferenciais, títulos públicos etc."
+  },
+  {
+    "codigo": "XprtnDt",
+    "nome_pt": "Data de expiração",
+    "nome_en": "Expiration date",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "TradgStartDt",
+    "nome_pt": "Data início negócio",
+    "nome_en": "Trading start date",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "TradgEndDt",
+    "nome_pt": "Data fim negócio",
+    "nome_en": "Trading end date",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "ISIN",
+    "nome_pt": "Código ISIN",
+    "nome_en": "ISIN code",
+    "tooltip_pt": "Codificação internacional de títulos financeiros"
+  },
+  {
+    "codigo": "CFICd",
+    "nome_pt": "Código CFI",
+    "nome_en": "CFI code",
+    "tooltip_pt": "Código de Identificação de Instrumentos Financeiros "
+  },
+  {
+    "codigo": "OptnTp",
+    "nome_pt": "Tipo de opção",
+    "nome_en": "Option type",
+    "tooltip_pt": "Opção de compra (call) ou uma opção de venda (put)"
+  },
+  {
+    "codigo": "AllcnRndLot",
+    "nome_pt": "Tamanho de lote de alocação",
+    "nome_en": "Allocation lot size",
+    "tooltip_pt": "Número mínimo de unidades de um ativo que podem ser alocadas em uma transação"
+  },
+  {
+    "codigo": "TradgCcy",
+    "nome_pt": "Moeda negociada",
+    "nome_en": "Trading currency",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "DlvryTpNm",
+    "nome_pt": "Tipo de entrega",
+    "nome_en": "Delivery type name",
+    "tooltip_pt": "Como o ativo é entregue ao fim do contrato"
+  },
+  {
+    "codigo": "ExrcPric",
+    "nome_pt": "Preço de exercício",
+    "nome_en": "Exercise price",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "OptnStyle",
+    "nome_pt": "Estilo de opção",
+    "nome_en": "Option style",
+    "tooltip_pt": "Como uma opção pode ser exercida, se americano, europeu"
+  },
+  {
+    "codigo": "PrmUpfrntInd",
+    "nome_pt": "Indicador de prêmio antecipado",
+    "nome_en": "Premium upfront indicator",
+    "tooltip_pt": "Indica se a opção tem o prêmio pago antecipadamente ou não"
+  },
+  {
+    "codigo": "DstrbtnId",
+    "nome_pt": "Identificador da distribuição",
+    "nome_en": "Distribution identification",
+    "tooltip_pt": "Versão do ativo"
+  },
+  {
+    "codigo": "PricFctr",
+    "nome_pt": "Fator de preço",
+    "nome_en": "Price factor",
+    "tooltip_pt": "Número de ações utilizadas para a formação de preço"
+  },
+  {
+    "codigo": "DaysToSttlm",
+    "nome_pt": "Dias para liquidação",
+    "nome_en": "Days to settlement",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "SrsTpNm",
+    "nome_pt": "Tipo de série",
+    "nome_en": "Series type",
+    "tooltip_pt": "Relacionada a atualizações de preço de exercício"
+  },
+  {
+    "codigo": "PrtcnFlg",
+    "nome_pt": "Indicador de proteção",
+    "nome_en": "Protection flag",
+    "tooltip_pt": "Em relação a eventos corporativos"
+  },
+  {
+    "codigo": "AutomtcExrcInd",
+    "nome_pt": "Exercício automático",
+    "nome_en": "Automatic exercise indicator",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "SpcfctnCd",
+    "nome_pt": "Código de especificação",
+    "nome_en": "Specification code",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "CrpnNm",
+    "nome_pt": "Nome da instituição",
+    "nome_en": "Corporation name",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "CorpActnStartDt",
+    "nome_pt": "Data início de evento corporativo",
+    "nome_en": "Corporate action start date",
+    "tooltip_pt": "Quando dividendos ou bônus são distribuídos para acionistas"
+  },
+  {
+    "codigo": "CtdyTrtmntTpNm",
+    "nome_pt": "Tipo de tratamento de custódia",
+    "nome_en": "Custody treatment type name",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "MktCptlstn",
+    "nome_pt": "Capital social",
+    "nome_en": "Market capitalisation",
+    "tooltip_pt": "Valor estabelecido em contrato ou estatuto, em dinheiro, ativos ou direitos"
+  },
+  {
+    "codigo": "CorpGovnLvlNm",
+    "nome_pt": "Nível de governança corporativa",
+    "nome_en": "Corporate governance level name",
+    "tooltip_pt": "Padronização de práticas e relacionamento para otimizar a performance do negócio"
+  }
+]

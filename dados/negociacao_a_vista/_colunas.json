@@ -1,0 +1,134 @@
+[
+  {
+    "codigo": "RptDt",
+    "nome_pt": "Data do negócio",
+    "nome_en": "Trade date",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "TckrSymb",
+    "nome_pt": "Instrumento financeiro",
+    "nome_en": "Ticker symbol",
+    "tooltip_pt": "Tipo de instrumento negociado"
+  },
+  {
+    "codigo": "ISIN",
+    "nome_pt": "Código ISIN",
+    "nome_en": "ISIN Code",
+    "tooltip_pt": "Codificação internacional de títulos financeiros"
+  },
+  {
+    "codigo": "SgmtNm",
+    "nome_pt": "Segmento",
+    "nome_en": "Segment",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Mkt",
+    "nome_pt": "Código identificador do mercado",
+    "nome_en": "Market code",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "OpenPric",
+    "nome_pt": "Preço de abertura",
+    "nome_en": "Opening price",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "MinPric",
+    "nome_pt": "Preço mínimo",
+    "nome_en": "Minimum price",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "MaxPric",
+    "nome_pt": "Preço máximo",
+    "nome_en": "Maximum price",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "TradAvrgPric",
+    "nome_pt": "Preço médio",
+    "nome_en": "Trade average price",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "LastPric",
+    "nome_pt": "Preço de fechamento",
+    "nome_en": "Last price",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "Osc",
+    "nome_pt": "Oscilação",
+    "nome_en": "Oscillation",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "AdjstdQt",
+    "nome_pt": "Ajuste",
+    "nome_en": "Adjusted quote",
+    "tooltip_pt": "Mostra valores ajustados que refletem condições atuais do ativo"
+  },
+  {
+    "codigo": "AdjstdQtTax",
+    "nome_pt": "Ajuste de referência",
+    "nome_en": "Adjusted quote tax",
+    "tooltip_pt": "Preço-base que foi utilizado para calcular os ajustes"
+  },
+  {
+    "codigo": "PrvsAdjstdQt",
+    "nome_pt": "Ajuste do dia anterior",
+    "nome_en": "Previous adjusted quote tax",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "RefPric",
+    "nome_pt": "Preço de referência",
+    "nome_en": "Reference price",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "VartnPts",
+    "nome_pt": "Variação",
+    "nome_en": "Variation",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "AdjstdValCtrct",
+    "nome_pt": "Valor do ajuste por contrato (R$)",
+    "nome_en": "Settlement value per contract (R$)",
+    "tooltip_pt": "Ajuste aplicado a cada contrato; reflete mudanças no valor do ativo"
+  },
+  {
+    "codigo": "BestBidPric",
+    "nome_pt": "Última oferta de compra",
+    "nome_en": "Last buy order",
+    "tooltip_pt": "Preço que compradores estão dispostos a pagar"
+  },
+  {
+    "codigo": "BestAskPric",
+    "nome_pt": "Última oferta de venda",
+    "nome_en": "Last sell order",
+    "tooltip_pt": "Preço que vendedores estão dispostos a aceitar para vender o ativo"
+  },
+  {
+    "codigo": "TradQty",
+    "nome_pt": "Quantidade de negócios",
+    "nome_en": "Trade Quantity",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "FinInstrmQty",
+    "nome_pt": "Quantidade de contratos",
+    "nome_en": "Financial instrument quantity",
+    "tooltip_pt": null
+  },
+  {
+    "codigo": "NtlFinVol",
+    "nome_pt": "Volume financeiro",
+    "nome_en": "National financial volume",
+    "tooltip_pt": "Volume total na data de referência"
+  }
+]
