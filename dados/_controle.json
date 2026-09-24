@@ -1,0 +1,534 @@
+{
+ "cadastro_instrumentos": {
+  "2026-09-22": {
+   "linhas_brutas": 79828,
+   "linhas_salvas": 6929,
+   "paginas": 80
+  }
+ },
+ "emprestimos_registrados": {
+  "2026-08-24": {
+   "linhas_brutas": 4670,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-08-25": {
+   "linhas_brutas": 4668,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-08-26": {
+   "linhas_brutas": 4668,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-08-27": {
+   "linhas_brutas": 4671,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-08-28": {
+   "linhas_brutas": 4674,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-08-31": {
+   "linhas_brutas": 4674,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-01": {
+   "linhas_brutas": 4679,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-02": {
+   "linhas_brutas": 4685,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-03": {
+   "linhas_brutas": 4688,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-04": {
+   "linhas_brutas": 4688,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-08": {
+   "linhas_brutas": 4688,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-09": {
+   "linhas_brutas": 4685,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-10": {
+   "linhas_brutas": 3169,
+   "paginas": 4,
+   "verificado": true
+  },
+  "2026-09-11": {
+   "linhas_brutas": 4700,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-14": {
+   "linhas_brutas": 4700,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-15": {
+   "linhas_brutas": 3175,
+   "paginas": 4,
+   "verificado": true
+  },
+  "2026-09-16": {
+   "linhas_brutas": 4700,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-17": {
+   "linhas_brutas": 3170,
+   "paginas": 4,
+   "verificado": true
+  },
+  "2026-09-18": {
+   "linhas_brutas": 4698,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-21": {
+   "linhas_brutas": 4701,
+   "paginas": 5,
+   "verificado": true
+  },
+  "2026-09-22": {
+   "linhas_brutas": 3110,
+   "paginas": 4,
+   "verificado": true
+  }
+ },
+ "negociacao_a_vista": {
+  "2026-08-24": {
+   "linhas_brutas": 131336,
+   "linhas_salvas": 597,
+   "paginas": 132
+  },
+  "2026-08-25": {
+   "linhas_brutas": 132119,
+   "linhas_salvas": 810,
+   "paginas": 133
+  },
+  "2026-08-26": {
+   "linhas_brutas": 131585,
+   "linhas_salvas": 1979,
+   "paginas": 132
+  },
+  "2026-08-27": {
+   "linhas_brutas": 131285,
+   "linhas_salvas": 297,
+   "paginas": 132
+  },
+  "2026-08-28": {
+   "linhas_brutas": 131529,
+   "linhas_salvas": 1583,
+   "paginas": 132
+  },
+  "2026-08-31": {
+   "linhas_brutas": 126639,
+   "linhas_salvas": 2094,
+   "paginas": 127
+  },
+  "2026-09-01": {
+   "linhas_brutas": 126773,
+   "linhas_salvas": 1422,
+   "paginas": 127
+  },
+  "2026-09-02": {
+   "linhas_brutas": 124927,
+   "linhas_salvas": 1456,
+   "paginas": 125
+  },
+  "2026-09-03": {
+   "linhas_brutas": 125071,
+   "linhas_salvas": 2782,
+   "paginas": 126
+  },
+  "2026-09-04": {
+   "linhas_brutas": 125086,
+   "linhas_salvas": 1268,
+   "paginas": 126
+  },
+  "2026-09-08": {
+   "linhas_brutas": 113485,
+   "linhas_salvas": 1005,
+   "paginas": 114
+  },
+  "2026-09-09": {
+   "linhas_brutas": 106686,
+   "linhas_salvas": 1108,
+   "paginas": 107
+  },
+  "2026-09-10": {
+   "linhas_brutas": 106729,
+   "linhas_salvas": 610,
+   "paginas": 107
+  },
+  "2026-09-11": {
+   "linhas_brutas": 90075,
+   "linhas_salvas": 147,
+   "paginas": 91
+  },
+  "2026-09-14": {
+   "linhas_brutas": 87090,
+   "linhas_salvas": 335,
+   "paginas": 88
+  },
+  "2026-09-15": {
+   "linhas_brutas": 88031,
+   "linhas_salvas": 1932,
+   "paginas": 89
+  },
+  "2026-09-16": {
+   "linhas_brutas": 89212,
+   "linhas_salvas": 935,
+   "paginas": 90
+  },
+  "2026-09-17": {
+   "linhas_brutas": 89389,
+   "linhas_salvas": 955,
+   "paginas": 90
+  },
+  "2026-09-18": {
+   "linhas_brutas": 92546,
+   "linhas_salvas": 1703,
+   "paginas": 93
+  },
+  "2026-09-21": {
+   "linhas_brutas": 73499,
+   "linhas_salvas": 1827,
+   "paginas": 74
+  },
+  "2026-09-22": {
+   "linhas_brutas": 73619,
+   "linhas_salvas": 1000,
+   "paginas": 74
+  }
+ },
+ "negocios": {
+  "2026-08-24": {
+   "linhas_brutas": 82496,
+   "paginas": 83,
+   "verificado": true
+  },
+  "2026-08-25": {
+   "linhas_brutas": 59241,
+   "paginas": 60,
+   "verificado": true
+  },
+  "2026-08-26": {
+   "linhas_brutas": 47639,
+   "paginas": 48,
+   "verificado": true
+  },
+  "2026-08-27": {
+   "linhas_brutas": 51010,
+   "paginas": 52,
+   "verificado": true
+  },
+  "2026-08-28": {
+   "linhas_brutas": 55897,
+   "paginas": 56,
+   "verificado": true
+  },
+  "2026-08-31": {
+   "linhas_brutas": 42126,
+   "paginas": 43,
+   "verificado": true
+  },
+  "2026-09-01": {
+   "linhas_brutas": 91719,
+   "paginas": 92,
+   "verificado": true
+  },
+  "2026-09-02": {
+   "linhas_brutas": 51759,
+   "paginas": 52,
+   "verificado": true
+  },
+  "2026-09-03": {
+   "linhas_brutas": 52086,
+   "paginas": 53,
+   "verificado": true
+  },
+  "2026-09-04": {
+   "linhas_brutas": 42806,
+   "paginas": 43,
+   "verificado": true
+  },
+  "2026-09-08": {
+   "linhas_brutas": 38732,
+   "paginas": 39,
+   "verificado": true
+  },
+  "2026-09-09": {
+   "linhas_brutas": 43499,
+   "paginas": 44,
+   "verificado": true
+  },
+  "2026-09-10": {
+   "linhas_brutas": 43165,
+   "paginas": 44,
+   "verificado": true
+  },
+  "2026-09-11": {
+   "linhas_brutas": 34982,
+   "paginas": 35,
+   "verificado": true
+  },
+  "2026-09-14": {
+   "linhas_brutas": 31959,
+   "paginas": 32,
+   "verificado": true
+  },
+  "2026-09-15": {
+   "linhas_brutas": 36362,
+   "paginas": 37,
+   "verificado": true
+  },
+  "2026-09-16": {
+   "linhas_brutas": 40021,
+   "paginas": 41,
+   "verificado": true
+  },
+  "2026-09-17": {
+   "linhas_brutas": 35498,
+   "paginas": 36,
+   "verificado": true
+  },
+  "2026-09-18": {
+   "linhas_brutas": 41623,
+   "paginas": 42,
+   "verificado": true
+  },
+  "2026-09-21": {
+   "linhas_brutas": 61945,
+   "paginas": 62,
+   "verificado": true
+  },
+  "2026-09-22": {
+   "linhas_brutas": 54471,
+   "paginas": 55,
+   "verificado": true
+  }
+ },
+ "posicoes_em_aberto": {
+  "2026-08-24": {
+   "linhas_brutas": 2925,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-08-25": {
+   "linhas_brutas": 2863,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-08-26": {
+   "linhas_brutas": 2890,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-08-27": {
+   "linhas_brutas": 2910,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-08-28": {
+   "linhas_brutas": 2903,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-08-31": {
+   "linhas_brutas": 2882,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-01": {
+   "linhas_brutas": 2944,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-02": {
+   "linhas_brutas": 3056,
+   "paginas": 4,
+   "verificado": true
+  },
+  "2026-09-03": {
+   "linhas_brutas": 2976,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-04": {
+   "linhas_brutas": 2887,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-08": {
+   "linhas_brutas": 2906,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-09": {
+   "linhas_brutas": 2873,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-10": {
+   "linhas_brutas": 2912,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-11": {
+   "linhas_brutas": 2926,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-14": {
+   "linhas_brutas": 2923,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-15": {
+   "linhas_brutas": 2914,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-16": {
+   "linhas_brutas": 2962,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-17": {
+   "linhas_brutas": 2987,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-18": {
+   "linhas_brutas": 2919,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-21": {
+   "linhas_brutas": 2874,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-22": {
+   "linhas_brutas": 2886,
+   "paginas": 3,
+   "verificado": true
+  }
+ },
+ "renovacoes": {
+  "2026-08-25": {
+   "linhas_brutas": 3175,
+   "paginas": 4,
+   "verificado": true
+  },
+  "2026-08-26": {
+   "linhas_brutas": 154355,
+   "paginas": 155,
+   "verificado": true
+  },
+  "2026-08-27": {
+   "linhas_brutas": 40657,
+   "paginas": 41,
+   "verificado": true
+  },
+  "2026-08-28": {
+   "linhas_brutas": 53881,
+   "paginas": 54,
+   "verificado": true
+  },
+  "2026-08-31": {
+   "linhas_brutas": 10490,
+   "paginas": 11,
+   "verificado": true
+  },
+  "2026-09-01": {
+   "linhas_brutas": 7402,
+   "paginas": 8,
+   "verificado": true
+  },
+  "2026-09-02": {
+   "linhas_brutas": 171289,
+   "paginas": 172,
+   "verificado": true
+  },
+  "2026-09-03": {
+   "linhas_brutas": 40165,
+   "paginas": 41,
+   "verificado": true
+  },
+  "2026-09-04": {
+   "linhas_brutas": 2354,
+   "paginas": 3,
+   "verificado": true
+  },
+  "2026-09-08": {
+   "linhas_brutas": 6533,
+   "paginas": 7,
+   "verificado": true
+  },
+  "2026-09-09": {
+   "linhas_brutas": 29982,
+   "paginas": 30,
+   "verificado": true
+  },
+  "2026-09-10": {
+   "linhas_brutas": 36951,
+   "paginas": 37,
+   "verificado": true
+  },
+  "2026-09-11": {
+   "linhas_brutas": 63174,
+   "paginas": 64,
+   "verificado": true
+  },
+  "2026-09-14": {
+   "linhas_brutas": 15146,
+   "paginas": 16,
+   "verificado": true
+  },
+  "2026-09-15": {
+   "linhas_brutas": 3477,
+   "paginas": 4,
+   "verificado": true
+  },
+  "2026-09-17": {
+   "linhas_brutas": 60455,
+   "paginas": 61,
+   "verificado": true
+  },
+  "2026-09-18": {
+   "linhas_brutas": 51260,
+   "paginas": 52,
+   "verificado": true
+  },
+  "2026-09-21": {
+   "linhas_brutas": 7493,
+   "paginas": 8,
+   "verificado": true
+  },
+  "2026-09-22": {
+   "linhas_brutas": 14113,
+   "paginas": 15,
+   "verificado": true
+  }
+ }
+}
