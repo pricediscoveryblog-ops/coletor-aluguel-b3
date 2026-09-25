@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Coletor diário – empréstimo de ações (BTB) e dados de apoio – Boletim Diário da B3.
-Versão 3: download pelo CSV de exportação (tabela inteira, sem paginação).
+Versão 3.1: download pelo CSV de exportação (tabela inteira, sem paginação).
 
 Por que CSV: a consulta paginada da B3 (/bdi/table/.../{pagina}/{tamanho}) devolve
 as linhas em ordem instável; as páginas se sobrepõem e parte dos dados some
@@ -15,6 +15,8 @@ Fluxo por tabela e dia:
   3. Converte números no formato BR (1.234,56 e 0,25%), datas dd/mm/aaaa e "-" vazio;
      renomeia as colunas para os mesmos códigos da versão anterior (RptDt, TckrSymb…).
   4. Confere: linhas do CSV == total informado pela B3. Se não bater, tenta de novo.
+     (v3.1) Se o CSV vier com linhas a mais, remove duplicadas/vazias; aceita diferença
+     residual de até 1 linha (visto no cadastro de instrumentos), com aviso no log.
 
 - A B3 mantém as tabelas por ~21 dias úteis (D-21) e publica D por volta das 8h de D+1.
 - Tabelas "diárias": baixa todo dia útil da janela ainda não salvo pela v3.
@@ -40,6 +42,8 @@ import requests
 BASE = "https://arquivos.b3.com.br/bdi/table"
 JANELA_DIAS = 35        # dias corridos para trás (cobre ~21 dias úteis)
 TENTATIVAS = 5
+TENTATIVAS_CSV = 3      # a B3 às vezes não gera CSVs grandes (HTTP 499/504); cada tentativa leva ~4 min
+TOLERANCIA_LINHAS = 1
 PAUSA = 1.0             # segundos entre downloads
 FONTE = "csv-v3"
 
@@ -72,8 +76,8 @@ sessao.headers.update({"Content-Type": "application/json",
 
 
 # ---------------------------------------------------------------- acesso à B3
-def post(url: str, corpo: str, timeout: int = 180) -> requests.Response:
-    for tentativa in range(1, TENTATIVAS + 1):
+def post(url: str, corpo: str, timeout: int = 180, tentativas: int = TENTATIVAS) -> requests.Response:
+    for tentativa in range(1, tentativas + 1):
         try:
             r = sessao.post(url, data=corpo, timeout=timeout)
             if r.status_code == 200:
@@ -82,7 +86,7 @@ def post(url: str, corpo: str, timeout: int = 180) -> requests.Response:
         except requests.RequestException as e:
             log.warning("Erro em %s (tentativa %d): %s", url, tentativa, e)
         time.sleep(5 * tentativa)
-    raise RuntimeError(f"Falha após {TENTATIVAS} tentativas: {url}")
+    raise RuntimeError(f"Falha após {tentativas} tentativas: {url}")
 
 
 def metadados(tabela: str, data: str):
@@ -100,7 +104,7 @@ def metadados(tabela: str, data: str):
 def baixar_csv(tabela: str, data: str) -> str:
     corpo = json.dumps({"Name": tabela, "Date": data, "FinalDate": data,
                         "ClientId": "", "Filters": {}})
-    r = post(f"{BASE}/export/csv?lang=pt-BR", corpo, timeout=300)
+    r = post(f"{BASE}/export/csv?lang=pt-BR", corpo, timeout=300, tentativas=TENTATIVAS_CSV)
     try:
         return r.content.decode("utf-8-sig")
     except UnicodeDecodeError:
@@ -175,9 +179,15 @@ def baixar(tabela: str, data: str):
     meta, total = metadados(tabela, data)
     if total == 0:
         return None, None, 0
-    for tentativa in range(1, TENTATIVAS + 1):
+    for tentativa in range(1, TENTATIVAS_CSV + 1):
         df = ler_csv(baixar_csv(tabela, data), meta)
-        if len(df) == total:
+        if len(df) > total:
+            df = df.dropna(how="all").drop_duplicates()
+        excesso = len(df) - total
+        if 0 <= excesso <= TOLERANCIA_LINHAS:
+            if excesso:
+                log.warning("%s %s: CSV com %d linha(s) a mais que o total da B3 (%d); aceito",
+                            tabela, data, excesso, total)
             df.insert(0, "data_pregao", data)
             return df, meta, total
         log.warning("%s %s: CSV com %d linhas, B3 informa %d (tentativa %d)",
