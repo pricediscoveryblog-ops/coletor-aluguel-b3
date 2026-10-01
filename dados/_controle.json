@@ -29,6 +29,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 80359,
    "linhas_salvas": 6945
+  },
+  "2026-09-30": {
+   "fonte": "csv-v3",
+   "linhas_b3": 81014,
+   "linhas_salvas": 6960
   }
  },
  "emprestimos_registrados": {
@@ -161,6 +166,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 4704,
    "linhas_salvas": 4704
+  },
+  "2026-09-30": {
+   "fonte": "csv-v3",
+   "linhas_b3": 4706,
+   "linhas_salvas": 4706
   }
  },
  "negociacao_a_vista": {
@@ -293,6 +303,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 74120,
    "linhas_salvas": 1428
+  },
+  "2026-09-30": {
+   "fonte": "csv-v3",
+   "linhas_b3": 74784,
+   "linhas_salvas": 1449
   }
  },
  "negocios": {
@@ -425,6 +440,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 38408,
    "linhas_salvas": 38408
+  },
+  "2026-09-30": {
+   "fonte": "csv-v3",
+   "linhas_b3": 35762,
+   "linhas_salvas": 35762
   }
  },
  "posicoes_em_aberto": {
@@ -557,6 +577,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 2946,
    "linhas_salvas": 2946
+  },
+  "2026-09-30": {
+   "fonte": "csv-v3",
+   "linhas_b3": 2874,
+   "linhas_salvas": 2874
   }
  },
  "renovacoes": {
@@ -635,6 +660,11 @@
    "linhas_b3": 3477,
    "linhas_salvas": 3477
   },
+  "2026-09-16": {
+   "fonte": "csv-v3",
+   "linhas_b3": 156158,
+   "linhas_salvas": 156158
+  },
   "2026-09-17": {
    "fonte": "csv-v3",
    "linhas_b3": 60455,
@@ -679,6 +709,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 7946,
    "linhas_salvas": 7946
+  },
+  "2026-09-30": {
+   "fonte": "csv-v3",
+   "linhas_b3": 122993,
+   "linhas_salvas": 122993
   }
  }
 }
