@@ -206,6 +206,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 3182,
    "linhas_salvas": 3182
+  },
+  "2026-10-07": {
+   "fonte": "csv-v3",
+   "linhas_b3": 3187,
+   "linhas_salvas": 3187
   }
  },
  "negociacao_a_vista": {
@@ -363,6 +368,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 75958,
    "linhas_salvas": 1533
+  },
+  "2026-10-07": {
+   "fonte": "csv-v3",
+   "linhas_b3": 76886,
+   "linhas_salvas": 1485
   }
  },
  "negocios": {
@@ -677,6 +687,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 3035,
    "linhas_salvas": 3035
+  },
+  "2026-10-07": {
+   "fonte": "csv-v3",
+   "linhas_b3": 3041,
+   "linhas_salvas": 3041
   }
  },
  "renovacoes": {
