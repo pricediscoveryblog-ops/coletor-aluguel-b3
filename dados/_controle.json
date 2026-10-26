@@ -99,6 +99,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 77555,
    "linhas_salvas": 6957
+  },
+  "2026-10-23": {
+   "fonte": "csv-v3",
+   "linhas_b3": 78627,
+   "linhas_salvas": 7643
   }
  },
  "emprestimos_registrados": {
@@ -308,6 +313,11 @@
    "linhas_salvas": 4740
   },
   "2026-10-22": {
+   "fonte": "csv-v3",
+   "linhas_b3": 4734,
+   "linhas_salvas": 4734
+  },
+  "2026-10-23": {
    "fonte": "csv-v3",
    "linhas_b3": 4734,
    "linhas_salvas": 4734
@@ -523,6 +533,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 71346,
    "linhas_salvas": 1472
+  },
+  "2026-10-23": {
+   "fonte": "csv-v3",
+   "linhas_b3": 72192,
+   "linhas_salvas": 1479
   }
  },
  "negocios": {
@@ -947,6 +962,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 2903,
    "linhas_salvas": 2903
+  },
+  "2026-10-23": {
+   "fonte": "csv-v3",
+   "linhas_b3": 2865,
+   "linhas_salvas": 2865
   }
  },
  "renovacoes": {
