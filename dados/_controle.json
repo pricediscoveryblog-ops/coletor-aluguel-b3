@@ -441,6 +441,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 4743,
    "linhas_salvas": 4743
+  },
+  "2026-11-12": {
+   "fonte": "csv-v3",
+   "linhas_b3": 3199,
+   "linhas_salvas": 3199
   }
  },
  "negociacao_a_vista": {
@@ -1247,6 +1252,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 2899,
    "linhas_salvas": 2899
+  },
+  "2026-11-12": {
+   "fonte": "csv-v3",
+   "linhas_b3": 2881,
+   "linhas_salvas": 2881
   }
  },
  "renovacoes": {
