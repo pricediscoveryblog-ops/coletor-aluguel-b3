@@ -164,6 +164,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 81037,
    "linhas_salvas": 6975
+  },
+  "2026-11-13": {
+   "fonte": "csv-v3",
+   "linhas_b3": 82334,
+   "linhas_salvas": 7621
   }
  },
  "emprestimos_registrados": {
@@ -446,6 +451,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 3199,
    "linhas_salvas": 3199
+  },
+  "2026-11-13": {
+   "fonte": "csv-v3",
+   "linhas_b3": 4743,
+   "linhas_salvas": 4743
   }
  },
  "negociacao_a_vista": {
@@ -723,6 +733,16 @@
    "fonte": "csv-v3",
    "linhas_b3": 74748,
    "linhas_salvas": 1419
+  },
+  "2026-11-12": {
+   "fonte": "csv-v3",
+   "linhas_b3": 74920,
+   "linhas_salvas": 1439
+  },
+  "2026-11-13": {
+   "fonte": "csv-v3",
+   "linhas_b3": 75686,
+   "linhas_salvas": 1410
   }
  },
  "negocios": {
@@ -1257,6 +1277,11 @@
    "fonte": "csv-v3",
    "linhas_b3": 2881,
    "linhas_salvas": 2881
+  },
+  "2026-11-13": {
+   "fonte": "csv-v3",
+   "linhas_b3": 2924,
+   "linhas_salvas": 2924
   }
  },
  "renovacoes": {
@@ -1470,6 +1495,11 @@
    "linhas_b3": 507,
    "linhas_salvas": 507
   },
+  "2026-10-28": {
+   "fonte": "csv-v3",
+   "linhas_b3": 151640,
+   "linhas_salvas": 151640
+  },
   "2026-10-29": {
    "fonte": "csv-v3",
    "linhas_b3": 23312,
@@ -1485,6 +1515,21 @@
    "linhas_b3": 2824,
    "linhas_salvas": 2824
   },
+  "2026-11-04": {
+   "fonte": "csv-v3",
+   "linhas_b3": 126983,
+   "linhas_salvas": 126983
+  },
+  "2026-11-05": {
+   "fonte": "csv-v3",
+   "linhas_b3": 47056,
+   "linhas_salvas": 47056
+  },
+  "2026-11-06": {
+   "fonte": "csv-v3",
+   "linhas_b3": 15232,
+   "linhas_salvas": 15232
+  },
   "2026-11-09": {
    "fonte": "csv-v3",
    "linhas_b3": 3167,
@@ -1494,6 +1539,21 @@
    "fonte": "csv-v3",
    "linhas_b3": 2362,
    "linhas_salvas": 2362
+  },
+  "2026-11-11": {
+   "fonte": "csv-v3",
+   "linhas_b3": 99302,
+   "linhas_salvas": 99302
+  },
+  "2026-11-12": {
+   "fonte": "csv-v3",
+   "linhas_b3": 33305,
+   "linhas_salvas": 33305
+  },
+  "2026-11-13": {
+   "fonte": "csv-v3",
+   "linhas_b3": 40442,
+   "linhas_salvas": 40442
   }
  }
 }
